@@ -1,0 +1,168 @@
+
+@font-face{
+    font-family: '7up';
+    src: url(korolev-heavy.zip);
+}
+body{
+    margin: 0;
+    padding-top: 146px;
+    font-family: 7up;
+    
+}
+header{
+    width: 100%;
+    height: 146px;
+    background-color: rgb(247, 154, 131);
+    border-bottom: #070707;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    border-bottom: 2px solid white;
+}
+.left-logo img{
+    width:108px;
+    height: auto;
+    margin: 26px;
+}
+.center-text{
+    display: flex;
+    align-items: center;
+    margin-left: 760px;
+    color: aliceblue;
+    
+    
+    
+}
+.center-text div{
+    margin-right: 40px;
+    font-size: 25px;
+    font-family:"Helvetica Neue", Arial, Helvetica, sans-serif, Arial, sans-serif";
+    
+}
+.sclogos{
+    margin-left: 18px;
+    display: flex;
+    align-items: center;
+    
+}
+.sclogos img{
+    margin-right: 5px;
+    width: 35px;
+    height: auto;
+}
+.fist-image{
+    position: relative;
+}
+.fist-image img{
+    width: 100%;
+    height: auto;
+}
+.text{
+    color: #ffff;
+    position: absolute;
+   top: 200px;
+   left: 110px;
+   
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 2px;
+    
+}
+.text img{
+    width:auto ;
+    height: 225px;
+    margin-top: 65px;
+    margin-left: 24px;
+}
+.fist-image button{
+    position: absolute;
+    font-size: 20px;
+    top: 500px;
+    left: 150px;
+    padding: 10px 28px;
+    border: solid white;
+    background-color: transparent;
+    border-width: 3px;
+    color: #ffff;
+
+    border-radius: 20px;
+}
+.secont-banner{
+    position: relative;
+    width: auto;
+   height: 100vh;
+
+}
+.secont-banner img{
+    
+    width: 100%;
+    height: 100vh;
+}
+.secont-banner-round{
+    position: absolute;
+    background-color: rgba(10, 91, 43, 0.8);
+    width: 800px;
+    height: 240px;
+    top: 325px;
+    left: 450px;
+    border-radius: 120px;
+    opacity: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.rfirst{
+color: aliceblue;
+font-size: 40px;
+margin-top: 30px;
+font-weight: 700;
+
+}
+
+.rsecont{
+    margin: -1;
+    color: aliceblue;
+    font-size: 21px;
+    font-style: initial;
+    font-weight: 500;
+    }
+ .rthird button{
+        font-size: 20px;
+        padding: 10px 28px;
+        border: solid white;
+        background-color: transparent;
+        border-width: 3px;
+        color: #ffff;
+        border-radius: 20px;
+        font-weight: 700;
+        }
+        footer{
+            width: 100%;
+            height: 150px;
+            display: flex;
+            margin-top: ;
+            flex-direction: column;
+            align-items: center;
+            background-color: #3e3e3e;
+            color: #ffff;
+          
+           
+
+        }
+        .down{
+            display: flex;
+            gap: 12px;
+            margin-bottom: 10px;
+            
+            
+        }
+        .down{
+            margin-top: 16px;
+        }
+        .downa{
+            margin-top: 12px;
+        }
